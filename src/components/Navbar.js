@@ -4,14 +4,11 @@ import '../styles/Navbar.css';
 function Navbar() {
   return (
     <nav className="navbar">
-      <img src={logo} alt="Logo du site Kasa" href="" />
+      <img src={logo} alt="Logo du site Kasa" />
       <ul>
-        <href>
-          <li>Accueil</li>
-        </href>
-        <href>
-          <li>A Propos</li>
-        </href>
+        <li>Accueil</li>
+
+        <li>A Propos</li>
       </ul>
     </nav>
   );

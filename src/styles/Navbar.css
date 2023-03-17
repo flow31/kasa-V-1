@@ -2,7 +2,7 @@
   height: 68px;
   display: flex;
   justify-content: space-between;
-  margin: 50px 90px;
+  margin: 58px 328px;
   align-items: center;
   
 }
@@ -15,7 +15,7 @@
  
 }
 
-.navbar ul href {
+.navbar ul li {
   display: flex;
   color: #FF6060;
   text-decoration: none;
@@ -30,7 +30,7 @@
 
 .navbar ul {
   display: flex;
-  padding: 0px;
+  padding: 21px;
   gap: 30px;
   list-style: none;
 }
