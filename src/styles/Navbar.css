@@ -1,0 +1,43 @@
+.navbar {
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 90px;
+  align-items: center;
+  
+}
+
+.navbar img {
+  width: auto;
+  height: 68px;
+  margin: 20px ;
+  
+ 
+}
+
+.navbar ul href {
+  display: flex;
+  color: #FF6060;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 500;
+  align-items: flex-end;
+  text-align: right;
+  
+  
+}
+
+.navbar ul {
+  display: flex;
+  padding: 0px;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+
