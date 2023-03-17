@@ -3,8 +3,15 @@ import '../styles/Banner.css';
 
 function Banner() {
   return (
-    <section>
-      <input type="image" img src={background} alt="photo" />
+    <section className="banner">
+      <img
+        className="banner-image"
+        src={background}
+        alt="Logo de l'entreprise ACME"
+      />
+      <div className="banner-text">
+        <h1>Chez vous, partout et ailleurs</h1>
+      </div>
     </section>
   );
 }
