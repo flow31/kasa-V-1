@@ -1,15 +1,16 @@
 import Navbar from '../components/Navbar';
 import Banner from '../components/Banner';
-
-function App() {
+import Footer from '../components/Footer';
+function Home() {
   return (
     <div>
       <main>
         <Navbar />
         <Banner />
+        <Footer />
       </main>
     </div>
   );
 }
 
-export default App;
+export default Home;

@@ -15,12 +15,12 @@
  
 }
 
-.navbar ul li {
+.link {
   display: flex;
   color: #FF6060;
   text-decoration: none;
   font-size: 24px;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   font-weight: 500;
   align-items: flex-end;
   text-align: right;
@@ -35,9 +35,10 @@
   list-style: none;
 }
 
-.navbar ul li:hover {
+.navbar .link:hover {
   cursor: pointer;
   text-decoration: underline;
 }
+
 
 

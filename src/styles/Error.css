@@ -1,0 +1,40 @@
+.error{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+   
+}
+.error h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    color: #FF6060;
+    margin-top: auto;
+    margin-bottom: 66px;
+}
+.error h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FF6060;
+    margin-bottom: 182px;
+}
+
+.link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration-line: underline;
+    color: #FF6060;
+    text-decoration: none;
+}
+.link:hover{
+
+    cursor: pointer;
+  text-decoration: underline;
+}
