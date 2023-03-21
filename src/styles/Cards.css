@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 1240px;
+  width: 1217px;
   height: auto;
   margin: 0 auto;
   background-color: #f0f0f0;
@@ -13,8 +13,8 @@
 
 .card {
   width: 320px;
-  height: 320px;
-  margin-bottom: 20px;
+  height: 300px;
+  margin: 40px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -46,4 +46,5 @@
 .card-content h3 {
   margin-top: 0;
   color: white;
+  text-shadow: 7px 5px 6px rgba(0,0,0,0.87);
 }

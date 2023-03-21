@@ -1,0 +1,38 @@
+.collapse-container {
+    width: 1023px;
+    margin: 10px auto;
+    border-radius: 5px;
+    
+    
+  }
+  
+  .collapse-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 5px;
+  }
+  
+  .rotate {
+    transform: rotate(180deg);
+  }
+  
+  .collapse-body {
+    padding: 10px;
+    background-color:  #F7F7F7;
+    border-radius: 5px;
+  }
+  .collapse-body p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FF6060
+  }
+  
