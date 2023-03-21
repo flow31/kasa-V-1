@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Header';
 import { Link } from 'react-router-dom';
 import '../styles/Error.css'
 

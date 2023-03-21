@@ -1,46 +1,22 @@
-import '../styles/Cards.css'; // importez votre fichier de styles CSS ici
+import React from "react";
+import "../styles/Cards.css";
+import logements from '../data/logements.json';
 
-function Cards() {
-  const logements = [
-    {
-      id: 1,
-      title: 'Titre de la location',
-    },
-    {
-      id: 2,
-      title: 'Titre de la location',
-    },
-    {
-      id: 3,
-      title: 'Titre de la location',
-    },
-    {
-      id: 4,
-      title: 'Titre de la location',
-    },
-    {
-      id: 5,
-      title: 'Titre de la location',
-    },
-    {
-      id: 6,
-      title: 'Titre de la location',
-    },
-  ];
-
+const Logements = () => {
   return (
     <div className="container">
-      <div className="cards-container">
-        {logements.map(logement => (
-          <div className="card" key={logement.id}>
-            <div className="card-content">
-              <p>{logement.title}</p>
-            </div>
+      {logements.map((logement, index) => (
+        <div key={index} className="card">
+          <img src={logement.cover} alt={logement.title} />
+          <div className="card-content">
+            <h3>{logement.title}</h3>
+           
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   );
-}
+};
 
-export default Cards;
+export default Logements;
+

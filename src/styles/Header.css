@@ -1,4 +1,4 @@
-.navbar {
+header {
   height: 68px;
   display: flex;
   justify-content: space-between;
@@ -7,7 +7,7 @@
   
 }
 
-.navbar img {
+header img {
   width: auto;
   height: 68px;
   margin: 20px ;
@@ -28,14 +28,14 @@
   
 }
 
-.navbar ul {
+nav ul {
   display: flex;
   padding: 21px;
   gap: 30px;
   list-style: none;
 }
 
-.navbar .link:hover {
+nav .link:hover {
   cursor: pointer;
   text-decoration: underline;
 }

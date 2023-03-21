@@ -1,18 +1,18 @@
 import Navbar from '../components/Header';
-import Banner from '../components/Banner';
+
 import Footer from '../components/Footer';
-import Cards from '../components/Cards'
-function Home() {
+
+function About() {
   return (
     <div>
       <main>
         <Navbar />
-        <Banner />
-        <Cards />
+        
+        
         <Footer />
       </main>
     </div>
   );
 }
 
-export default Home;
+export default About;

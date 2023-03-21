@@ -1,13 +1,14 @@
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
-import '../styles/Navbar.css';
+import '../styles/Header.css';
 
-function Navbar() {
+function Header() {
   return (
-    <nav className="navbar">
+    <header>
       <Link to="/">
         <img src={logo} alt="Logo du site Kasa" />
       </Link>
+      <nav>
       <ul>
         <li>
           <Link to="/" className="link">
@@ -20,8 +21,9 @@ function Navbar() {
           </Link>
         </li>
       </ul>
-    </nav>
+      </nav>
+    </header>
   );
 }
 
-export default Navbar;
+export default Header;
