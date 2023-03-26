@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import Error from './Pages/Error';
 import About from './Pages/About'
-import Apartments from './Pages/Apartments'
+import Logements from './Pages/Logements'
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           <Route path="*" element={<Error />} />
           
           <Route path="/about" element={<About />} />
-          <Route path="/logements/:id" element={<Apartments />} />
+          <Route path="/logements/:id" element={<Logements />} />
 
         </Routes>
       </BrowserRouter>

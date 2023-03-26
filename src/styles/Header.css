@@ -2,8 +2,10 @@ header {
   height: 68px;
   display: flex;
   justify-content: space-between;
-  margin: 58px 328px;
+  margin: 88px 211px;
   align-items: center;
+  width: max-content;
+  column-gap: 1002px;
   
 }
 

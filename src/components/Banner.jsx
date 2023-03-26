@@ -1,19 +1,25 @@
-import background from '../assets/IMG.png';
+import React from 'react';
+import PropTypes from 'prop-types';
 import '../styles/Banner.css';
 
-function Banner() {
+function Banner({ backgroundImage, title }) {
   return (
     <section className="banner">
       <img
         className="banner-image"
-        src={background}
-        alt="Logo de l'entreprise ACME"
+        src={backgroundImage}
+        alt="Background"
       />
       <div className="banner-text">
-        <h1>Chez vous, partout et ailleurs</h1>
+        <h1>{title}</h1>
       </div>
     </section>
   );
 }
+
+Banner.propTypes = {
+  backgroundImage: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+};
 
 export default Banner;

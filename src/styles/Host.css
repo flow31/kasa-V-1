@@ -1,0 +1,26 @@
+.host{
+    display: flex;
+
+
+
+}
+.host img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.host p
+{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+    margin-right: 18px;
+
+
+}

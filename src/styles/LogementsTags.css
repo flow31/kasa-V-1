@@ -1,0 +1,24 @@
+.logements-tags {
+  display: flex;
+    width: 1076px;
+    justify-content: flex-start;
+    margin-bottom: 26px;
+    margin-left: 214px;
+}
+  
+  
+  .logements-tag {
+    background-color: #FF6060;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 3px 17px;
+    width: 138px;
+    height: 16px;
+    text-align: center;
+    white-space: nowrap;
+  }
+  

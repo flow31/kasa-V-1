@@ -1,0 +1,42 @@
+.description{
+    display: flex;
+    width: 1460px;
+    margin-left: 215px;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+}
+
+
+
+.description h1 {
+    color: #FF6060;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    width: max-content;
+    height: 13px;
+
+}
+.location h3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF6060;
+    width: max-content;
+    margin-bottom: 26px;
+    height: 13px;
+    margin-left: 218px;
+
+}
+.tags-rating{
+
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+
+
+}
