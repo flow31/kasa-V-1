@@ -1,12 +1,20 @@
 import React from 'react';
 import '../styles/Host.css'
-const Host = ({ name, picture }) => {
+
+
+function Host({ name, picture }) {
+  const [firstName, lastName] = name.split(' ');
+
   return (
     <section className='host'>
-      <p>{name}</p>
+      <div className='host-name'>
+        <span className='host-first-name'>{firstName}</span>
+        <span className='host-last-name'>{lastName}</span>
+      </div>
       <img src={picture} alt={`${name}'s profile`}/>
-      </section>
+    </section>
   );
-};
+}
 
 export default Host;
+

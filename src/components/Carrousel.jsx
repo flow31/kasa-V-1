@@ -31,14 +31,16 @@ function Carrousel({ pictures }) {
         src={pictures[currentSlide]}
         alt="Slideshow"
       />
-      <div className="carrousel-nav">
-        <button onClick={handlePrevSlide}>
-          <img src={arrow} alt="Previous slide" />
-        </button>
-        <button onClick={handleNextSlide}>
-          <img src={arrow} alt="Next slide" />
-        </button>
-      </div>
+      {pictures.length > 1 && (
+        <div className="carrousel-nav">
+          <button onClick={handlePrevSlide}>
+            <img src={arrow} alt="Previous slide" />
+          </button>
+          <button onClick={handleNextSlide}>
+            <img src={arrow} alt="Next slide" />
+          </button>
+        </div>
+      )}
     </div>
   );
 }
