@@ -10,11 +10,12 @@ function App() {
     <main className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="*" element={<Error />} />
-          
-          <Route path="/about" element={<About />} />
-          <Route path="/logements/:id" element={<Logements />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/logements/:id" element={<Logements />} />
+        <Route path="/error" element={<Error />} />
+        <Route path="*" element={<Error />} />
+
 
         </Routes>
       </BrowserRouter>
