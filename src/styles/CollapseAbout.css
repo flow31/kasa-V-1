@@ -10,7 +10,20 @@
     font-size: 24px;
     font-weight: 500;
     border-radius: 5px;
+    width: 1023px;
+    
   }
+  .about-page .collapse-body{
+
+    width: 1023px;
+  }
+  .about-page .collapse-container {
+    width: 1296px;
+    justify-content: center;
+    display: flex;
+  }
+  
+
   
   
  
@@ -19,6 +32,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 240px;
    
 
 
@@ -26,4 +40,5 @@
 
 
   }
+  
   

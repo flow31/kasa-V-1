@@ -15,8 +15,8 @@ function Logements() {
 
   return (
     <div>
-      <main>
         <Header />
+      <main>
         <Carrousel pictures={logement.pictures} />
         <section className='description'>
         <h1>{logement.title}</h1>
@@ -38,8 +38,8 @@ function Logements() {
   <Collapse title="Équipements" content={logement.equipments} />
 </div>
 
-        <Footer />
       </main>
+        <Footer />
     </div>
   );
 }

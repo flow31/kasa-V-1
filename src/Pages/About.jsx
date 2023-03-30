@@ -11,10 +11,10 @@ import IMG from '../assets/img-about.png'
 function About() {
   return (
     <div>
-      <main>
         <Header />
+      <main>
         <Banner backgroundImage={IMG} title='' /> 
-        <div className="about-container">
+        <section className="about-container about-page">
           {aboutData.map((item, index) => (
             <Collapse
             key={index}
@@ -23,9 +23,9 @@ function About() {
             className="about-collapse"
             />
           ))}
-        </div>
-        <Footer />
+        </section>
       </main>
+        <Footer />
     </div>
   );
 }

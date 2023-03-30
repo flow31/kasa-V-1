@@ -6,15 +6,16 @@
   display: flex;
     
     width: fit-content;
-    column-gap: 235px;
-    margin-left: 215px;
+    column-gap: 80px;
+    margin-left: 326px;
+    margin-bottom: 320px;
 }
 
 
 
 
 .collapse-container {
-  width: 617px;
+  width: 576px;
     margin: 10px auto;
     border-radius: 10px;
     display: flex;

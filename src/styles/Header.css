@@ -2,17 +2,17 @@ header {
   height: 68px;
   display: flex;
   justify-content: space-between;
-  margin: 88px 211px;
+  margin: 30px 211px;
   align-items: center;
   width: max-content;
-  column-gap: 1002px;
+  column-gap: 680px;
   
 }
 
 header img {
   width: auto;
   height: 68px;
-  margin: 20px ;
+  margin: 128px ;
   
  
 }
