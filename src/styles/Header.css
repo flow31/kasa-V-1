@@ -2,19 +2,17 @@ header {
   height: 68px;
   display: flex;
   justify-content: space-between;
-  margin: 30px 211px;
+  margin: 30px auto;
   align-items: center;
-  width: max-content;
-  column-gap: 680px;
-  
+  width: 100%;
+  max-width: 1210px;
+  padding: 0 20px;
 }
 
 header img {
   width: auto;
   height: 68px;
-  margin: 128px ;
-  
- 
+  margin-right: 128px;
 }
 
 .link {
@@ -26,8 +24,6 @@ header img {
   font-weight: 600;
   align-items: flex-end;
   text-align: right;
-  
-  
 }
 
 nav ul {
@@ -43,6 +39,8 @@ nav ul {
   text-decoration: underline;
 }
 
-
-
-
+@media screen and (max-width: 575px) {
+  header {
+    column-gap: 0;
+  }
+}
