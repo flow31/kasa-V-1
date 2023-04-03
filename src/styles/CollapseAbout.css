@@ -1,44 +1,34 @@
+.about-collapse .collapse-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 1023px;
+}
 
-  .about-collapse .collapse-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    cursor: pointer;
-    color: #fff;
-    font-family: 'Montserrat';
-    font-size: 24px;
-    font-weight: 500;
-    border-radius: 5px;
-    width: 1023px;
-    
-  }
-  .about-page .collapse-body{
+.about-page .collapse-body {
+  width: 90%;
+  max-width: 1023px;
+}
 
-    width: 1023px;
-  }
-  .about-page .collapse-container {
-    width: 1296px;
-    justify-content: center;
-    display: flex;
-  }
-  
+.about-page .collapse-container {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  max-width: 1296px;
+}
 
-  
-  
- 
-  .about-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 240px;
-   
-
-
-
-
-
-  }
-  
-  
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5vh;
+}

@@ -22,3 +22,14 @@ footer small{
 
 
 }
+@media screen and (max-width: 500px){
+    footer small{
+        font-size: 12px;
+
+
+
+    }
+
+
+
+}

@@ -17,6 +17,7 @@
     height: 223px;
     border-radius: 25px;
     filter: brightness(75%);
+    object-fit: cover;
 }
   
 .banner-text {
@@ -40,7 +41,15 @@
   white-space: normal;
   flex-wrap: wrap; /* Permettre aux mots de se casser entre les lettres */
 }
-  /* Style pour les écrans dont la largeur est inférieure à 768px */
+@media (max-width: 1329px){
+  .banner{
+    width: 90%;
+
+  }
+
+
+}
+  
   @media (max-width: 767px){ .banner-text h1 {
     margin: 1.5rem 0 0 1rem;
     font-size: 32px;

@@ -12,7 +12,7 @@ header {
 header img {
   width: auto;
   height: 68px;
-  margin-right: 128px;
+ 
 }
 
 .link {
@@ -40,7 +40,25 @@ nav ul {
 }
 
 @media screen and (max-width: 575px) {
-  header {
-    column-gap: 0;
+  .linklogo {
+    width: fit-content;
+  }
+  nav .link{
+    gap: 0;
+    font-size: 12px;
+  }
+  nav ul{
+    
+    gap: 15px;
+    margin-left: 28px;
+  }
+  header img{
+    width: 134px;
+    height: 46px;
+  }
+  header{
+
+    padding: 0;
+    justify-content: center;
   }
 }
