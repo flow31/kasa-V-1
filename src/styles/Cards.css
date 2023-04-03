@@ -21,6 +21,8 @@
   position: relative;
   border-radius: 10px;
   overflow: hidden; 
+  cursor: pointer;
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   
 
   
@@ -36,6 +38,10 @@
 
   
 }
+.card:hover {
+  transform: scale(1.04);
+}
+
 
 .card-content {
   padding: 20px;
@@ -54,5 +60,10 @@
   width: fit-content;
   margin-left: 2px;
 }
+.container a{
+
+cursor: auto;
+}
+
 
 
