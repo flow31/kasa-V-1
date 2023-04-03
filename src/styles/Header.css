@@ -38,6 +38,11 @@ nav ul {
   cursor: pointer;
   text-decoration: underline;
 }
+@media screen and (max-width: 1300px){
+  header{
+    width: 80%;
+  }
+}
 
 @media screen and (max-width: 575px) {
   .linklogo {
@@ -57,7 +62,7 @@ nav ul {
     height: 46px;
   }
   header{
-
+    
     padding: 0;
     justify-content: center;
   }
