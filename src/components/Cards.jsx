@@ -7,7 +7,7 @@ const Logements = () => {
   return (
     <section className="container">
       {logements.map((logement) => (
-        <Link key={logement.id} to={`/logements/${logement.id}`} className="card-link">
+        <Link  key={logement.id} to={`/logements/${logement.id}`} className="card-link">
           <article className="card">
             <img src={logement.cover} alt={logement.title} />
             <div className="card-content">

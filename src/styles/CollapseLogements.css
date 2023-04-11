@@ -5,9 +5,9 @@
 .logement-container {
   display: flex;
     
-    width: fit-content;
+  
     column-gap: 80px;
-    margin-left: 326px;
+   
     margin-bottom: 320px;
 }
 

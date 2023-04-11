@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Collapse from '../components/Collapse';
@@ -8,13 +8,17 @@ import LogementsTags from '../components/LogementsTags';
 import '../styles/Logements.css'
 import Ratings from '../components/Ratings';
 import Carrousel from '../components/Carrousel';
+
 function Logements() {
   const { id } = useParams();
   const logement = logements.find((l) => l.id === id);
-  
+
+  if (!logement) {
+    return <Navigate to="/error" />;
+  }
 
   return (
-    <div>
+    <section>
         <Header />
       <main>
         <Carrousel pictures={logement.pictures} />
@@ -40,7 +44,7 @@ function Logements() {
 
       </main>
         <Footer />
-    </div>
+    </section>
   );
 }
 

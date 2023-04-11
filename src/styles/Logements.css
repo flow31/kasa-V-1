@@ -1,7 +1,7 @@
 .description{
     display: flex;
-    width: 1365px;
-    margin-left: 327px;
+   
+    margin: auto;
     justify-content: space-between;
 
 
@@ -17,22 +17,20 @@
     font-size: 36px;
     width: max-content;
     height: 13px;
+    
 
 }
-.location{
-    display: flex;
-    justify-content: flex-start;
-}
+
 .location h3{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     color: #FF6060;
-    width: max-content;
+   
     margin-bottom: 25px;
     height: 13px;
-    margin-left: 329px;
+    
 
 }
 .tags-rating{
