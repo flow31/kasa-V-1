@@ -62,27 +62,29 @@
 
 .carrousel-nav button:first-child {
   transform: rotate(90deg);
-  width: 192px;
-  height: 65px;
+  
 }
 
 .carrousel-nav button:last-child {
   transform: rotate(270deg);
-  width: 192px;
-  height: 65px;
+ 
 }
 
 @media screen and (max-width: 1300px) {
+  .carrousel-container{
+    margin:20px
+  }
   .carrousel-image {
-    width: 90%;
+    
     height: 350px;
   }
-  .carrousel-nav {
-    width: 90%;
-  }
+
 }
 
 @media screen and (max-width: 500px) {
+  .carrousel-nav img{
+    width: 30px;
+  }
   .carrousel-image {
     height: 255px;
   }
