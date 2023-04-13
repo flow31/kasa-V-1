@@ -22,19 +22,21 @@ function Logements() {
         <Header />
       <main>
         <Carrousel pictures={logement.pictures} />
+        <section className='logement-description'>
         <section className='description'>
         <h1>{logement.title}</h1>
-        <Host name={logement.host.name} picture={logement.host.picture} />
-        
-        </section>
-        <section className='location'>
-        <h3>{logement.location}</h3>
-        </section>
-        <section className='tags-rating'>
-         
         <LogementsTags tags={logement.tags} />
+        <h3>{logement.location}</h3>
         
+        
+        </section>
+   
+        <section className='host-rating'>
+         
+      
+        <Host name={logement.host.name} picture={logement.host.picture} />
         <Ratings />
+        </section>
         </section>
         
         <div className="logement-container">

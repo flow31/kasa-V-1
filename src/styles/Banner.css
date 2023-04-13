@@ -37,10 +37,10 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  line-height: 1.4; /* Espacement entre les lignes */
+  line-height: 1.4; 
   color: white; 
   white-space: normal;
-  flex-wrap: wrap; /* Permettre aux mots de se casser entre les lettres */
+  flex-wrap: wrap;
 }
 
 @media (max-width: 1340px){ .banner {

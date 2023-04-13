@@ -4,11 +4,12 @@
   justify-content: center;
   align-items: center;
   border-radius: 25px;
+  max-width: 100%;
 }
 
 .carrousel-image {
   width: 100%;
-  max-width: 1240px;
+  
   height: 415px;
   object-fit: cover;
   border-radius: 25px;

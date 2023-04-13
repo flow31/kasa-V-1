@@ -1,7 +1,13 @@
 .ratings{
     width: max-content;
-    margin-left: 236px;
+    margin-top: 83px;
+    
 
 
 
+}
+@media screen and (max-width: 639px){
+    .ratings{
+        margin-top: 43px;
+    }
 }
