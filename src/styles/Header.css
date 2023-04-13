@@ -28,7 +28,7 @@ header img {
 
 nav ul {
   display: flex;
-  padding: 21px;
+  
   gap: 30px;
   list-style: none;
 }
@@ -54,8 +54,8 @@ nav ul {
   }
   nav ul{
     
-    gap: 15px;
-    margin-left: 28px;
+    
+    gap: 10px;
   }
   header img{
     width: 134px;
@@ -64,6 +64,6 @@ nav ul {
   header{
     
     padding: 0;
-    justify-content: center;
+   
   }
 }
