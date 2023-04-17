@@ -54,7 +54,7 @@ nav ul {
   }
   nav ul{
     
-    
+    text-transform: uppercase;
     gap: 10px;
   }
   header img{
