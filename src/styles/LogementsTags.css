@@ -1,8 +1,10 @@
 .logements-tags {
   display: flex;
-    
-    
-    margin-bottom: 26px;
+  margin-bottom: 32px;
+  width: auto;
+  max-width: max-content;
+  flex-wrap: wrap;
+  gap: 12px;
     
    
 }
@@ -15,7 +17,7 @@
     font-weight: 500;
     font-family: 'Montserrat';
     font-size: 14px;
-    margin-right: 10px;
+    
     padding: 3px 17px;
    
     height: 16px;
