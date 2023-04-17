@@ -9,20 +9,18 @@
     column-gap: 80px;
    
     margin-bottom: 320px;
+    max-width: 1240px;
 }
 
 
 
 
 .collapse-container {
-  width: 576px;
+    width: 100%;
     margin: 10px auto;
     border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: max-content;
+   
+   
 }
 
 
@@ -38,7 +36,8 @@
   font-size: 18px;
   font-weight: 500;
   border-radius: 5px;
-  width: 764px;
+  
+  width: auto;
   height: 22px;
 }
 
@@ -47,12 +46,12 @@
 }
 
 .collapse-body {
-  padding: 10px;
+  
   background-color:  #F7F7F7;
   border-radius: 10px;
   display: flex;
   flex-direction: column; 
-  width: 596px;
+  width: 100%;
   height: max-content;
   
   
@@ -66,6 +65,7 @@
   font-size: 18px;
   color: #FF6060;
   line-height: 26px;
+  padding: 10px;
 }
 .collapse-body li{
 
@@ -76,6 +76,13 @@
   color: #FF6060;
   list-style: none;
   line-height: 26px;
+}
+@media screen and (max-width: 1316px){.logement-container{
+  margin: 20px;
+  margin-bottom: 320px;
+  display: block;
+}
+
 }
 
   
