@@ -40,12 +40,7 @@
   
 }
 
-.carrousel-counter-container {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-}
+
 
 
 
@@ -71,6 +66,9 @@
 }
 
 @media screen and (max-width: 1300px) {
+  .carrousel-nav__counter{
+    display: none;
+  }
   .carrousel-container{
     margin:20px
   }
