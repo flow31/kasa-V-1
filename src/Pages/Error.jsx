@@ -6,7 +6,7 @@ function Error() {
   return (
     <div>
       <Header />
-      <main>
+      <div>
       <section className='error'>
         <h1>404</h1>
         <h2>Oups! La page que vous demandez n'existe pas</h2>
@@ -14,7 +14,7 @@ function Error() {
           <Link to="/" className='link'>Retourner sur la page d'accueil</Link>
         </small>
       </section>
-      </main>
+      </div>
     </div>
   );
 }
