@@ -18,7 +18,7 @@ function Logements() {
   }
 
   return (
-    <section>
+    <>
         <Header />
       <main>
         <Carrousel pictures={logement.pictures} />
@@ -46,7 +46,7 @@ function Logements() {
 
       </main>
         <Footer />
-    </section>
+    </>
   );
 }
 

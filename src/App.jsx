@@ -7,7 +7,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <main className="App">
+    
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
@@ -18,7 +18,7 @@ function App() {
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
-    </main>
+    
   );
 }
 
