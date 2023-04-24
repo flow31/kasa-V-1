@@ -13,7 +13,7 @@ function About() {
     <div>
         <Header />
       <main>
-        <Banner backgroundImage={IMG} title='' /> 
+        <Banner backgroundImage={IMG} title='' className="banner-about"/> 
         <section className="about-container about-page">
           {aboutData.map((item, index) => (
             <Collapse
