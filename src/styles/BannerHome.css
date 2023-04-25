@@ -1,0 +1,14 @@
+
+@media screen and (max-width: 600px) {
+    
+    .banner-home{
+        height: 23px;
+        margin:  5px 10px;
+    }
+    
+    .banner-home img{
+   
+    height: 140px;
+}
+    
+}

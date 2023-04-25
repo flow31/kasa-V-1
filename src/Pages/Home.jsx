@@ -1,4 +1,5 @@
 import Header from '../components/Header';
+import '../styles/BannerHome.css'
 import Banner from '../components/Banner';
 import Footer from '../components/Footer';
 import Cards from '../components/Cards';
@@ -9,7 +10,7 @@ function Home() {
     <div>
       <Header />
       <main>
-        <section>
+        <section className='banner-home'>
           <Banner backgroundImage={IMG} title="Chez vous, partout et ailleurs" />
         </section>
         <section>

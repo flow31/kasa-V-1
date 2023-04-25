@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import Collapse from '../components/Collapse';
 import aboutData from '../data/about.json';
 import Banner from '../components/Banner';
+
 import '../styles/CollapseAbout.css';
 import IMG from '../assets/img-about.png'
 
@@ -13,7 +14,9 @@ function About() {
     <div>
         <Header />
       <main>
-        <Banner backgroundImage={IMG} title='' className="banner-about"/> 
+       
+        <Banner backgroundImage={IMG} title='' /> 
+        
         <section className="about-container about-page">
           {aboutData.map((item, index) => (
             <Collapse
